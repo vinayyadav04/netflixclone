@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Pacifico&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+nav{
+    display: flex;
+    max-width: 80vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img{
+    width: 114;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: calc(100% - 62px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0 50px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 8px;
+    background-color: grey;
+    position: relative;
+}
+.btn{
+    padding: 8px 45px;
+    font-weight: bold;
+    background-color: rgba(126, 119, 119, 0.2);
+    color: white;
+    border: 1px solid rgba(241, 238, 238, 0.514);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.main input{
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: rgba(126, 119, 119, 0.2);
+    border: 1px solid rgba(240, 232, 232, 0.8);
+    color: rgb(104, 97, 97);
+    color: white;
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+
+}
+
+section1 .part1{
+    color: white;
+    font-size: 25px;
+    margin-left: 8%;
+}
+section2{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+section2 .part1.box{
+    background-color: yellow;
+}
